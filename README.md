@@ -2,35 +2,35 @@
 
 1. ## Perceptron
 
-This code demonstrates the implementation of the Perceptron algorithm from scratch and its application to different datasets using NumPy and matplotlib. Below is an explanation of each part of the code:
-
-**Part 1: Linearly Separable Data (make_blobs)**
-
-1. The code imports necessary libraries and generates a synthetic dataset using `make_blobs` from `sklearn.datasets`.
-2. The Perceptron algorithm is implemented from scratch using NumPy.
-3. The dataset is augmented to include a bias term.
-4. The algorithm runs for ten iterations, and intermediate hyperplanes are shown for each iteration.
-5. Finally, the final decision boundary is plotted after convergence.
-
-**Part 2: Linearly Separable Data with Batch Gradient Descent**
-
-1. This part repeats the Perceptron algorithm, but this time, it uses batch gradient descent with a specified step size (learning rate) to update the weights.
-2. The algorithm is again run for ten iterations, and the error is printed for each iteration.
-3. The final decision boundary is plotted after convergence.
-
-**Part 3: Non-Linearly Separable Data (make_circles)**
-
-1. This part generates another synthetic dataset using `make_circles` from `sklearn.datasets`.
-2. Since the data is not linearly separable, the feature space is augmented to include second-order features (terms up to degree 2).
-3. The Perceptron algorithm is applied to find the decision boundary in the augmented feature space.
-4. The final decision boundary is plotted in the original two-dimensional space using `contour()`.
-
-**Part 4: Test Accuracy**
-
-1. In this part, the code repeats the Perceptron algorithm for both linearly separable and non-linearly separable datasets, each containing 1000 points.
-2. The datasets are split into 50% training and 50% test sets.
-3. The Perceptron model is trained on the training data and tested on the test data.
-4. The accuracy of the model on the test data is calculated and reported for both datasets.
+   This code demonstrates the implementation of the Perceptron algorithm from scratch and its application to different datasets using NumPy and matplotlib. Below is an explanation of each part of the code:
+   
+   **Part 1: Linearly Separable Data (make_blobs)**
+   
+   1. The code imports necessary libraries and generates a synthetic dataset using `make_blobs` from `sklearn.datasets`.
+   2. The Perceptron algorithm is implemented from scratch using NumPy.
+   3. The dataset is augmented to include a bias term.
+   4. The algorithm runs for ten iterations, and intermediate hyperplanes are shown for each iteration.
+   5. Finally, the final decision boundary is plotted after convergence.
+   
+   **Part 2: Linearly Separable Data with Batch Gradient Descent**
+   
+   1. This part repeats the Perceptron algorithm, but this time, it uses batch gradient descent with a specified step size (learning rate) to update the weights.
+   2. The algorithm is again run for ten iterations, and the error is printed for each iteration.
+   3. The final decision boundary is plotted after convergence.
+   
+   **Part 3: Non-Linearly Separable Data (make_circles)**
+   
+   1. This part generates another synthetic dataset using `make_circles` from `sklearn.datasets`.
+   2. Since the data is not linearly separable, the feature space is augmented to include second-order features (terms up to degree 2).
+   3. The Perceptron algorithm is applied to find the decision boundary in the augmented feature space.
+   4. The final decision boundary is plotted in the original two-dimensional space using `contour()`.
+   
+   **Part 4: Test Accuracy**
+   
+   1. In this part, the code repeats the Perceptron algorithm for both linearly separable and non-linearly separable datasets, each containing 1000 points.
+   2. The datasets are split into 50% training and 50% test sets.
+   3. The Perceptron model is trained on the training data and tested on the test data.
+   4. The accuracy of the model on the test data is calculated and reported for both datasets.
 
 2. ## K-Means Clustering Algorithm:
    - This algorithm performs K-Means clustering on a given dataset.
