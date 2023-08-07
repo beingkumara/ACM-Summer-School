@@ -67,34 +67,22 @@
 
 5. ## Statistical Classifiers and ROC Analysis:
       
--Bayes Classifier:
+   - ## Bayes Classifier:
 
-Designed an optimal Bayes classifier using the given class conditional densities and prior probabilities.
-Calculated False Positive (FP) and True Positive (TP) rates.
-Calculated accuracy of the Bayes classifier.
--Neyman-Pearson Classifier:
+         - Designed an optimal Bayes classifier using the given class conditional densities and prior probabilities.
+         - Calculated False Positive (FP) and True Positive (TP) rates.
+         - Calculated accuracy of the Bayes classifier.
+   - ## Neyman-Pearson Classifier:
 
-Implemented the Neyman-Pearson classifier based on likelihood ratio and a given threshold.
-Evaluated its performance using ROC analysis.
-Generated ROC curve for various thresholds.
--Max-Min Classifier:
+         - Implemented the Neyman-Pearson classifier based on the likelihood ratio and a given threshold.
+         - Evaluated its performance using ROC analysis.
+         - Generated ROC curve for various thresholds.
 
-Implemented the Max-Min classifier, which aims to minimize the worst-case classification error.
-Compared the Max-Min classifier's performance with the Bayes and Neyman-Pearson classifiers.
-   - The code generates data from two classes and computes the likelihood ratio function.
-   - It then calculates true and false positive rates for various thresholds.
-   - The ROC curve is plotted using matplotlib.
-
-7. ## Maximum-Minimum Classifier:
-   - A Maximum-Minimum Classifier is implemented for binary classification.
-   - The `maxMinClassifier` function classifies data points based on each class's maximum and minimum values.
-   - The classifier is tested on hypothetical data, and predictions are printed.
-
-8. ## MinMaxClassifier Class:
-   - A `MinMaxClassifier` class is defined for binary classification.
-   - The `fit` method fits the classifier to the data.
-   - The `predict` method predicts the class of new data points based on the fitted classifier.
-   - The classifier is tested on hypothetical data, and accuracy is calculated.
+      
+   -  ## Min-Max Classifier:
+         - A `MinMaxClassifier` class is defined for binary classification.
+         - The classifier iterates through the input data, making predictions based on the given threshold. It calculates the false positives and negatives and uses them to calculate the error associated with the threshold.
+         - Evaluated the classifier's performance for various thresholds and found the threshold for which the risk is independent of priors.
 
 
 
