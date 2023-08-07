@@ -69,14 +69,14 @@
       
    - ## Bayes Classifier:
 
-         - Designed an optimal Bayes classifier using the given class conditional densities and prior probabilities.
-         - Calculated False Positive (FP) and True Positive (TP) rates.
-         - Calculated accuracy of the Bayes classifier.
+     - Designed an optimal Bayes classifier using the given class conditional densities and prior probabilities.
+      - Calculated False Positive (FP) and True Positive (TP) rates.
+      - Calculated accuracy of the Bayes classifier.
    - ## Neyman-Pearson Classifier:
 
-         - Implemented the Neyman-Pearson classifier based on the likelihood ratio and a given threshold.
-         - Evaluated its performance using ROC analysis.
-         - Generated ROC curve for various thresholds.
+     - Implemented the Neyman-Pearson classifier based on the likelihood ratio and a given threshold.
+      - Evaluated its performance using ROC analysis.
+      - Generated ROC curve for various thresholds.
 
       
    -  ## Min-Max Classifier:
